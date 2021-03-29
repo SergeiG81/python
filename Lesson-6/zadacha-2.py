@@ -17,6 +17,6 @@ class Road:
         return f"{self._length} * {self._width} * 25 кг * 5 = {(self._length * self._width * 25 * 5) / 1000} "
 
 road_1 = Road(5000, 20)
-print(road_1.get_full_profit())
+print(road_1.mass())
 
 
